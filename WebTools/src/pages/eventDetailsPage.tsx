@@ -32,7 +32,7 @@ import {ReduceAttributeEvent} from '../events/reduceAttributeEvent';
 import {SelectItemTypeEvent} from '../events/selectItemTypeEvent';
 import {LearnLanguageEvent} from '../events/learnLanguageEvent';
 import {ProdigyEvent} from '../events/prodigyEvent';
-import {JailOrDebtHaqqislamEvent} from '../events/jailOrDebtHaqqislamEvent';
+import {JailOrDebtHaqqislamEvent} from '../events/JailOrDebtHaqqislamEvent';
 import {JailOrDebtPanOEvent} from '../events/jailOrDebtPanOEvent';
 import {ImproveHackingOrGeistEvent} from '../events/ImproveHackingOrGeistEvent';
 import {CyberneticLegOrArmEvent} from '../events/cyberneticLegOrArmEvent';

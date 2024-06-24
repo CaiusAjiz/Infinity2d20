@@ -4,7 +4,7 @@ import {Navigation} from '../common/navigator';
 import {IPageProperties, PageIdentity} from './pageFactory';
 import {PageHeader} from '../components/pageHeader';
 import {Button} from '../components/button';
-import {BirthPlacesHelper} from '../helpers/birthplaces';
+import {BirthPlacesHelper} from '../helpers/birthPlaces';
 import {FactionsHelper} from '../helpers/factions';
 import {Dialog} from '../components/dialog';
 
