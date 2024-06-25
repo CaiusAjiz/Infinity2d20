@@ -93,14 +93,15 @@ export class Footer extends React.Component<IFooterProperties, IFooterState> {
     }
 
     private feedback() {
-        const url = "https://goo.gl/forms/z8eOMDViQYig8FM73";
+        alert("Sorry isn't working right now, it'll return soon!") //remove this once there's a solution for feedback, currently a dead link
+        /*const url = "https://goo.gl/forms/z8eOMDViQYig8FM73";
         const win = window.open(url, "_blank");
         if (win) {
             win.focus();
         }
         else {
             alert("Please allow popup windows for this site.");
-        }
+        } */
     }
 
     private whatsNew() {
