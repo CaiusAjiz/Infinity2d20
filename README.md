@@ -1,8 +1,8 @@
 # Infinity2d20
 
 ## Prerequisites
-- NodeJS (v10.13.0 or higher).
-- TypeScript 3.1 or compatible version.
+- NodeJS (LTS or higher).
+- TypeScript 5.5.1 or compatible version.
 
 ## Getting Started
 1. Open a command prompt in the WebTools/ folder and type ```npm install --legacy-peer-deps``` to install node modules in a manner that allows old dependencies to resolve.
