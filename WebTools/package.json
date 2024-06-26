@@ -1,26 +1,19 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.2",
   "name": "infinity",
   "author": "Christoffer Lundberg",
   "license": "ISC",
   "private": true,
   "dependencies": {
-    "es6-promise": "^3.2.1",
-    "express": "^4.19.2",
-    "minimatch": "^9.0.4",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "systemjs": "^0.19.27"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/react": "16.8.7",
-    "@types/react-dom": "16.8.2",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
     "eslint": "^9.5.0",
-    "systemjs-builder": "^0.0.7",
     "ts-loader": "^9.5.1",
-    "typescript": "^5.5.2",
-    "webpack": "^5.92.1",
-    "webpack-cli": "^5.1.4"
+    "typescript": "^5.5.2"
   },
   "scripts": {
     "package": "webpack"
