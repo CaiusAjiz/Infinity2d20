@@ -1047,7 +1047,7 @@ export class Talents {
         var talents: TalentViewModel[] = [];
 
         skills.forEach((s, i) => {
-            if (s === undefined) {
+            if (s == undefined) {
                 return;
             }
 
