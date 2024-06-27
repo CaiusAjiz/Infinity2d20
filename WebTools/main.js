@@ -6752,7 +6752,7 @@ System.register("helpers/talents", ["common/character", "helpers/skills"], funct
                     var _this = this;
                     var talents = [];
                     skills.forEach(function (s, i) {
-                        if (s === undefined) {
+                        if (s == undefined) {
                             return;
                         }
                         for (var i = 0; i < _this._talents[s].length; i++) {

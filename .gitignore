@@ -4,8 +4,8 @@ bin/
 WebTools/bin/
 WebTools/node_modules/
 WebTools/src/**/*.js
-WebTools/dist/infinity.js
+WebTools/dist/
 .DS_Store
-/.vs/WebTools-Infinity
+/Webtools/.vs
 /packages
 /WebTools/obj

@@ -1,14 +1,13 @@
 # Infinity2d20
 
 ## Prerequisites
-- Visual Studio 2019 (Community or higher).
-- NodeJS (v10.13.0 or higher).
-- TypeScript 3.1 or compatible version.
+- NodeJS (LTS or higher).
+- TypeScript 5.5.1 or compatible version.
 
 ## Getting Started
-1. Open a command prompt in the WebTools/ folder and type ```npm install``` to install node modules.
-2. Open the solution in Visual Studio.
-3. Compile the project.
+1. Open a command prompt in the WebTools/ folder and type ```npm install``` to install dependencies
+2. then run ```npx webpack``` from the same folder, this will generate the required ```dist``` area and files
+3. Open ```index.html``` (or serve it from your favourite webserver)
 
 Compiling will use webpack to generate a master script in the dist/ folder.
 
