@@ -24,7 +24,7 @@ import {EventDetailsPage} from './eventDetailsPage';
 import {AfterEventPage} from './afterEventPage';
 import {CareerPage} from './careerPage';
 import {HazardFailPage} from './hazardFailPage';
-import {CareerDetailsPage} from './careerDetailsPage';
+import CareerDetailsPage from './careerDetailsPage';
 import {CareerEventPage} from './careerEventPage';
 import {FiredPage} from './firedPage';
 import {CriminalRecordPage} from './criminalRecordPage';

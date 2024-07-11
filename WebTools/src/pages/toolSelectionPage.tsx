@@ -2,7 +2,7 @@
 import { Navigation } from '../common/navigator';
 import { PageIdentity, IPageProperties } from './pageFactory';
 import { Button } from '../components/button';
-import { CheckBox } from '../components/checkBox';
+import CheckBox from '../components/checkBox';
 import { PageHeader } from '../components/pageHeader';
 
 enum Tool {

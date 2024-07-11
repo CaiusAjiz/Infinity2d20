@@ -4,7 +4,7 @@ import { Navigation } from '../common/navigator';
 import { Button } from '../components/button';
 import { Attribute } from '../helpers/attributes';
 import { PageIdentity } from '../pages/pageFactory';
-import { CheckBox } from '../components/checkBox';
+import CheckBox from '../components/checkBox';
 
 export class IncreaseOneAttributeEvent extends React.Component<{}, {}> {
     private attr: number = Attribute.Agility;
