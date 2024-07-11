@@ -8,7 +8,7 @@ import {PageHeader} from '../components/pageHeader';
 import {Button} from '../components/button';
 import {AttributeImprovementCollection, AttributeImprovementCollectionMode} from '../components/attributeImprovement';
 import {UntrainedSkillImprovement} from '../components/untrainedSkillImprovement';
-import {TalentList} from '../components/talentList';
+import TalentList from '../components/talentList';
 import {Dialog} from '../components/dialog';
 
 export class FinalTweaksPage extends React.Component<IPageProperties, {}> {
@@ -58,7 +58,7 @@ export class FinalTweaksPage extends React.Component<IPageProperties, {}> {
                 <br/>
                 <div className="header-text">TALENT</div>
                 <div className="panel">
-                    <TalentList skills={SkillsHelper.getSkills()} onSelection={(talent) => { this._talent = talent } } />
+                    <TalentList skills={SkillsHelper.getSkills()} onSelection={(talent) => { this._talent = talent } } selTal={this._talent} />
                 </div>
                 <Button text="NEXT" className="button-next" onClick={() => this.onNext() }/>
             </div>

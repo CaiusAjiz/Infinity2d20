@@ -12,7 +12,7 @@ import {SkillImprovement} from '../components/skillImprovement';
 import {Button} from '../components/button';
 import {ElectiveSkillImprovement} from '../components/electiveSkillImprovement';
 import {SignatureSkillSelection} from '../components/signatureSkillSelection';
-import {TalentList} from '../components/talentList';
+import TalentList from '../components/talentList';
 import {EquipmentList} from '../components/equipmentList';
 import {Dialog} from '../components/dialog';
 
@@ -101,7 +101,7 @@ export class EducationDetailsPage extends React.Component<IPageProperties, {}> {
                 </div>
                 <div className="panel">
                     <div className="header-small">TALENT</div>
-                    <TalentList skills={[this._selectedSignatureSkill]} onSelection={talent => this.onTalentSelected(talent) }/>
+                    <TalentList skills={[this._selectedSignatureSkill]} onSelection={talent => this.onTalentSelected(talent) } selTal={this._selectedTalent}/>
                 </div>
                 <div className="panel">
                     <div className="header-small">EQUIPMENT</div>

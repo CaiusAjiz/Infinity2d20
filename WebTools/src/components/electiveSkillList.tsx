@@ -1,7 +1,7 @@
 ﻿import * as React from 'react';
 import {character} from '../common/character';
 import {Skill, SkillsHelper} from '../helpers/skills';
-import {CheckBox} from '../components/checkBox';
+import CheckBox from '../components/checkBox';
 
 interface IElectiveSkillProperties {
     skill: Skill;

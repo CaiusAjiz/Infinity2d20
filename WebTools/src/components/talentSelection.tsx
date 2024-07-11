@@ -3,7 +3,7 @@ import {character} from '../common/character';
 import {SkillsHelper, Skill} from '../helpers/skills';
 import {TalentViewModel, TalentsHelper} from '../helpers/talents';
 import {DropDownInput} from './dropDownInput';
-import {CheckBox} from './checkBox';
+import CheckBox from './checkBox';
 
 interface ITalentSelectionProperties {
     talents?: string[];

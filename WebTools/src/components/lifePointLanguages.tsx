@@ -1,7 +1,7 @@
 ﻿import * as React from 'react';
 import {character} from '../common/character';
 import {Button} from '../components/button';
-import {CheckBox} from '../components/checkBox';
+import CheckBox from '../components/checkBox';
 import {Dialog} from '../components/dialog';
 import {BirthPlacesHelper} from '../helpers/birthPlaces';
 

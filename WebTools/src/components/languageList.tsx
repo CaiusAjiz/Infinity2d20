@@ -1,6 +1,6 @@
 ﻿import * as React from 'react';
 import {character} from '../common/character';
-import {CheckBox} from './checkBox';
+import CheckBox from './checkBox';
 
 interface ILanguageListProperties {
     onSelection: (langs: string[]) => void;
