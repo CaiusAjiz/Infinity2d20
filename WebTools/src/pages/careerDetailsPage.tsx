@@ -298,7 +298,6 @@ const CareerDetailsPage = () => {
         });
 
     const onTalentSelected = (talent: string) => {
-            console.log(talent)
             setSelectedTalent(talent);
         }
 
@@ -327,10 +326,6 @@ const CareerDetailsPage = () => {
                 Dialog.show("You have not selected a signature skill.");
                 return;
             }
-        
-            console.log(_selectedTalent)
-
-
 
             if (_selectedTalent === null || _selectedTalent.length === 0) {
                 Dialog.show("You have not selected a talent.");
